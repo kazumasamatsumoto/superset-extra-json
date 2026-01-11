@@ -35,3 +35,11 @@ Thumbs.db
 # Test results
 test-results/
 playwright-report/
+
+# Superset clone (Git submodule)
+superset/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
