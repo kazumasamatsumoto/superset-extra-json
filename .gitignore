@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+superset-demo-frontend/node_modules/
+superset-demo-backend/node_modules/
+
+# Build outputs
+dist/
+build/
+superset-demo-backend/dist/
+superset-demo-frontend/dist/
+
+# Angular
+.angular/
+superset-demo-frontend/.angular/
+
+# Logs
+*.log
+npm-debug.log*
+/tmp/*.log
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test results
+test-results/
+playwright-report/
